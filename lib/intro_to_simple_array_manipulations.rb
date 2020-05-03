@@ -8,6 +8,5 @@ end
 
 def using_pop(arr)
   removed_element = arr.pop 
-  arr.pop 
-  
+  removed_element
 end 
