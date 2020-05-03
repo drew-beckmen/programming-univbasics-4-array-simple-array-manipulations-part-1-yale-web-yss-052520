@@ -12,5 +12,10 @@ def using_pop(arr)
 end 
 
 def pop_with_args(arr, 2)
-  
+  first_removed_element = arr.pop 
+  second_removed_element = arr.pop 
+  [first_removed_element, second_removed_element]
 end 
+
+def using_shift(arr)
+  
