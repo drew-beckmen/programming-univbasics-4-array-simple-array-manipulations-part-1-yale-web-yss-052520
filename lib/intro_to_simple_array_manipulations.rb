@@ -19,7 +19,5 @@ def using_shift(arr)
 end
 
 def shift_with_args(arr)
-  first_removed_element = arr.shift
-  second_removed_element = arr.shift 
-  [first_removed_element, second_removed_element]
+  arr.shift(2)
 end 
